@@ -1,5 +1,5 @@
 # HaxeBench
-Haxe, Dart or Typescript performances comparison.
+Haxe, Dart (when compiled to JS), or Typescript performances comparison.
 
 An updated comparison from http://www.infognition.com/blog/2014/comparing_flash_haxe_dart_asmjs_and_cpp.html
 
@@ -32,8 +32,8 @@ On Chrome 66, i5-5300U CPU @ 2.30GHz
 | ------------- | ------------- |------------- |------------- |------------- |
 | Haxe  | 0.281s  | 7.97s  | 27KB*  | 13KB  |
 | TypeScript  | 1.97s  | 8.94s  | 12KB  | 7KB |
-| Dart  | 5.56s  | 11.418s  | 344KB  | 136KB |
-| Dart2  | 4.06s  | 11.411s  | 264KB  | 106KB |
+| Dart (compiled to JS)  | 5.56s  | 11.418s  | 344KB  | 136KB |
+| Dart2 (compiled to JS) | 4.06s  | 11.411s  | 264KB  | 106KB |
 
 \*includes typed arrays polyfills for old browsers.
 
